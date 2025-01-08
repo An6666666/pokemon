@@ -56,7 +56,7 @@ var ProfolioDB = DB.create(__dirname+"/POKEMONprofoli.db");
 //    { id: 48, type: 'fire', name: '風速狗', img: 'IM/風速狗.jpg' },
 //    { id: 49, type: 'fire', name: '風速狗EX', img: 'IM/風速狗EX.jpg' },
 //    { id: 50, type: 'fire', name: '小火馬', img: 'IM/小火馬.jpg' },
-//    { id: 51, type: 'fire', name: '烈火馬', img: 'IM/烈火馬.jpg' },
+//    { id: 51, type: 'fire', name: '烈焰馬', img: 'IM/烈焰馬.jpg' },
 //    { id: 52, type: 'fire', name: '鴨嘴火獸', img: 'IM/鴨嘴火獸.jpg' },
 //    { id: 53, type: 'fire', name: '火伊布', img: 'IM/火伊布.jpg' },
 //    { id: 54, type: 'fire', name: '火焰鳥', img: 'IM/火焰鳥.jpg' },
