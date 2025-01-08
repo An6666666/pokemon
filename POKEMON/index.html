@@ -68,15 +68,16 @@
 <hr class="featurette-divider">
 
 <h1 class="text-center fw-bolder ">Illustrated cards</h1>
+<div class="row justify-content-around">
 
- <div id="card-container">
-  <div v-for="item in Services" :key="item.id" class="card" :id="item.name" >
-     
-      <img :src="item.img" alt="Service Image">
-      <p>{{item.name}}</p>
-   
-  </div>
- </div>
+    <div id="card-container" class="col-md-7 col-sm-3" >
+      <div v-for="item in Services" :key="item.id" class="card" :id="item.name" >     
+        <img :src="item.img" alt="Service Image">
+        <p>{{item.name}}</p>
+      </div>
+    </div>
+  
+</div>
 
  <hr class="featurette-divider">
 
